@@ -297,6 +297,12 @@ body    {
         font-size: 20px;
     }
 
+    #nav-links {
+        justify-content: center;
+        column-gap: 20%;
+        padding: 0px 60px;
+    }
+
     #quote  {
         display: none;
     }
