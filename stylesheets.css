@@ -214,7 +214,7 @@ body    {
 }
 
 /* responsive design tablets :) */
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 500px) and (max-width: 800px) {
     .logo   {
         padding-left: 0px;
     }
@@ -279,7 +279,7 @@ body    {
         width: 70%;
     }
     
-  }
+}
 
 /* responsive design phones */
 @media only screen and (max-width: 500px) {
@@ -311,6 +311,16 @@ body    {
         padding-top: 160px;
     }
 
+    .card   {
+        width: 90%;
+    }
+
+    #projects > p   {
+        font-weight: 300;
+        text-align: center;
+        width: 80%;
+    }
+
     #footer {
         font-size: 10px;
         justify-content: space-around;
@@ -318,3 +328,5 @@ body    {
         background-color: #171C23;
     }
 }
+
+
