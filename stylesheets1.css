@@ -1,0 +1,142 @@
+body    {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    background-color: #21272F;
+    font-size: x-large;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #21272F;
+    color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 10px black;
+}
+
+.logo   {
+    font-weight: 400px;
+    margin: 0px;
+    padding-left: 70px;;
+    color: #00C196;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 50%;
+    padding: 0px 100px;
+}
+
+#nav-links > a  {
+    text-decoration: none;
+    color: white;
+    font-weight: 300px;
+}
+
+#nav-links > a:active {
+    color: #00C196;
+}
+
+#nav-links > a:visited {
+    color: white;
+  }
+
+#nav-links > a:hover {
+    color: #00C196;
+}
+
+#quote {
+    padding-right: 70px;
+    color: grey;
+}
+
+.form-placement {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+#input-field h1 {
+    top: 12%;
+    left: 30%;
+    color: #00C196;
+    font-weight: 700;
+}
+
+#input-field input {
+    top: 30%;
+    left: 30%;
+    height: 40px;
+    width: 500px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 10px;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}
+
+#input-field button {
+    top: 30%;
+    left: 63.5%;
+    height: 42px;
+    width: 42px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #00C196;
+    border: none;
+    cursor: pointer;
+}
+
+#task-log {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    min-height: 350px;
+    width: 510px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 10px;
+    background-color: #171C23;
+    border: none;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 0px #171C23;
+}
+
+#input-field ul {
+    position: inherit;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#input-field li {
+    padding: 5px 0px 10px 10px;
+}
+
+#input-field li:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 8px;
+}
+
+#input-field ul > li > i {
+    float: right; 
+    padding: 5px 10px 10px 0px; 
+    color: grey;
+}
+
+
+

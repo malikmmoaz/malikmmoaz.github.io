@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d4884b110.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets1.css">
+    <title>Portfolio | TODO</title>
+    <link rel="icon" type="image/x-icon" href="raasta.png">
+</head>
+<body>
+    <!-- navigation bar -->
+    <div id="navbar">
+        <div>
+        <h1 class="logo">Portfolio</h1>
+        </div>
+        <div id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ToDo.html">TODO</a>
+            <a href="resume.pdf" target="_blank">Resume</a>
+        </div>
+        <div id="quote"><em>"It is what separates us is what defines us"</em></div>
+    </div>
+
+    <!-- List -->
+    <div id="input-field">
+        <h1 class="form-placement">TODO</h1>
+        <form name="form">
+            <input name="task" type="text" placeholder="Enter Task" id="input-field" class="form-placement">
+            <button type="submit" class="form-placement"><i class="fa-solid fa-plus"></i></button>
+        </form>
+        <div id="task-log">
+            <ul id="list">
+                <li>This is what a task looks like.<i onclick="deleteTask(this)" class="fa-solid fa-trash-can"></i></li>
+                <li>Click on the trash can to remove tasks.<i onclick="deleteTask(this)" class="fa-solid fa-trash-can"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
